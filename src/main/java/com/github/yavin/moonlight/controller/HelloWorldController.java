@@ -13,7 +13,7 @@ public class HelloWorldController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home() {
-        return "home";
+        return "admin/login";
     }
 
 }
